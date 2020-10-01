@@ -13,5 +13,3 @@ RUN npm run build
 FROM nginx
 
 COPY --from=builder /usr/src/app/build /usr/share/nginx/html
-
-225300767 / 27645999
